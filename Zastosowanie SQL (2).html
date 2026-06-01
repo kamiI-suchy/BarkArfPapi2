@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Zastosowanie SQL (2)</title>
+<link rel="stylesheet" type="text/css" media="all" href="Zastosowanie%20SQL%20(2)_files/jquery-ui.css">
+<link rel="stylesheet" type="text/css" media="all" href="Zastosowanie%20SQL%20(2)_files/styles.css">
+<script type="text/javascript" src="Zastosowanie%20SQL%20(2)_files/jquery.js"></script>
+<script type="text/javascript" src="Zastosowanie%20SQL%20(2)_files/jquery-ui.js"></script>
+<script type="text/javascript" src="Zastosowanie%20SQL%20(2)_files/main.js"></script>
+<script type="text/javascript" src="Zastosowanie%20SQL%20(2)_files/eth.js"></script>
+</head>
+<body>
+<h1>Zastosowanie SQL (2)</h1>
+
+<h2 id="h2_1">Projekt bazy</h2>
+<p>
+Poniżej znajduje się rysunek obrazujący relacje między tabelami w 
+przykładowej bazie danych wraz z danymi. Zadanie należy zrealizować w 
+oparciu o dowolne środowisko bazodanowe, np.:
+</p><ul>
+	<li>LibreOffice / OpenOffice Base</li>
+	<li>Microsoft Access</li>
+	<li>MySQL / MariaDB, przy czym można używać dwóch rodzajów silników:
+	<ul>
+		<li>MyISAM (bez możliwości zdefiniowania kluczy obcych)</li>
+		<li>InnoDB (możliwość zdefiniowania kluczy obcych) - opcja dodatkowo premiowana</li>
+	</ul>
+	</li>
+	<li>PostgreSQL</li>
+</ul>
+<div style="margin: 0 auto; text-align: center; padding: 1em;">
+	<img class="frame" src="Zastosowanie%20SQL%20(2)_files/hr.gif" alt="Rys. 1" title="Rys. 1">
+</div>
+<p></p>
+
+
+
+<h2 id="h2_2">Opis</h2>
+<ul>
+	<li>Poniższe zadania należy zrealizować wykorzystując wyłącznie polecenia SQL.</li>
+	<li>W celu późniejszego sprawdzenia, wszystkie zadania wykonać w 
+postaci zapisu polecenia SQL w postaci tekstowej oraz wyniku w postaci 
+tabeli (do formatowania można użyć LibreOffice Calc).</li>
+	<li>Każde raportowane zadanie powinno zawierać na początku kolejny numer.</li>
+	<li>Wszystkie wartości kluczy głównych (PK) powinny mieć automatyczne, unikalne wartości</li>
+</ul>
+
+
+
+<h2 id="h2_3">Zadania</h2>
+<p>
+Napisz zapytanie SQL, które pokazuje:
+</p><ol class="n">
+	<li>adresy wszystkich lokalizacji wraz z pełną nazwą kraju.</li>
+
+	<li>imiona i nazwiska pracowników oraz ID i nazwy działów do nich przypisanych.</li>
+
+	<li>imiona i nazwiska pracowników, którzy pracują w Londynie, wraz z 
+przypisanymi do nich ID pracy (job) oraz ID i nazwami departamentów.</li>
+
+	<li>id oraz nazwisko pracownika razem z przypisanym do niego ID i nazwiskiem kierownika (managera).</li>
+
+	<li>imiona, nazwiska oraz daty zatrudnienia pracowników, którzy zatrudnili się później niż pracownik o nazwisku Jones.</li>
+
+	<li>nazwy działów oraz liczbę pracowników danego działu.</li>
+
+	<li>ID pracownika, nazwę stanowiska pracy, liczbę przepracowanych dni dla różnych stanowisk w dziale z ID równym 90.</li>
+
+	<li>ID oraz nazwę działu wraz z przypisanymi do działów identyfikatorami (ID) oraz imionami kierowników.</li>
+
+	<li>nazwy działów oraz przypisane do nich imiona kierowników oraz nazwy miast.</li>
+
+	<li>nazwy stanowisk pracy oraz przypisane do nich średnie zarobki pracowników.</li>
+
+	<li>nazwę stanowiska pracy, imię i nazwisko pracownika oraz różnicę 
+między minimalną a maksymalną wartością zarobków dla danego stanowiska.</li>
+
+	<li>historię zatrudnienia pracowników, których zarobki przekraczają 10000.</li>
+
+	<li>imiona, nazwiska, daty zatrudnienia oraz zarobki wszystkich kierowników, którzy przepracowali więcej niż 15 lat.</li>
+
+</ol>
+<p></p>
+
+<p>W przypadku stosowania środowiska LibreOffice / OpenOffice Base, zadania zawierające polecenia SQL inne niż <i>select</i>, należy wykonać używając okna polecenia dostępnego z poziomu <i>Tools » SQL...</i>:
+</p><div style="margin: 0 auto; text-align: center; padding: 1em;">
+	<img class="frame" src="Zastosowanie%20SQL%20(2)_files/db_sql_02.jpg" alt="Rys. 2" title="Rys. 2">
+</div>
+<p></p>
+
+
+<h2 id="h2_4">Sprawozdanie</h2>
+
+W sprawozdaniu powinny znaleźć się:
+<ul>
+	<li>struktura (nazwy i typy pól) poszczególnych tabel</li>
+	<li>polecenia SQL oraz wyniki do każdego z powyższych zadań</li>
+</ul>
+w formie:
+<ul>
+	<li>czytelnego fragmentu zrzutu ekranu</li>
+	<li>lub tekstowej (forma preferowana), czcionka monotypiczna (np. Courier)</li>
+</ul>
+
+
+<div style="padding: 2em; color: #aaa; font-style: italic; font-size: 0.8em; text-align: right;">
+Przemysław Włodarski<br>
+lab. s.308, KPSiIM WE ZUT
+
+</div>
+
+
+
+</body></html>
